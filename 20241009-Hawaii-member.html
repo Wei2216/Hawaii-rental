@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=description content="">
+    <meta name=keywords content="">
+    <meta property=og:image content="">
+    <meta property=og:url content="">
+    <meta property=og:title content="">
+    <title>夏威夷旅遊租借服務｜夏威夷最方便快速的旅遊出租服務網</title>
+    <!-- google fonst 字型 搭配CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./myall.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border: 2px solid #6e6e6e;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1.lgd {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #00aaff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0077cc;
+        }
+
+        #sign {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #sign a {
+            color: #00aaff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        #sign a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1.lgd {
+                font-size: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Icons/black logo.svg" alt="Logo">
+            <h1>夏威夷旅遊租借服務</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="20241009-Hawaii-index.html">首頁</a></li>
+                <li><a href="20241009-Hawaii-about.html">關於我們</a></li>
+                <li><a href="20241009-Hawaii-member.html">會員登入</a></li>
+                <li><a href="20241009-Hawaii-contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="backImage">
+            <!--login會員登入-->
+            <form class="login">
+                <div id="right" class="container">
+                    <fieldset>
+                        <h1 class="lgd">會員登入帳號</h1>
+                        <!-- 用戶名輸入框 -->
+                        <input type="text" id="username" name="username" class="username_email" placeholder="您的電子郵件地址"
+                            required>
+
+                        <!-- 密碼輸入框 -->
+                        <input type="password" id="password" name="password" class="password1" placeholder="您的密碼"
+                            required>
+
+                        <!-- 登入按鈕 -->
+                        <input type="submit" value="登入" class="btn" id="submit">
+
+                        <!-- 忘記密碼、註冊鏈接 -->
+                        <div id="sign">
+                            <a href="#" id="member_btn">忘記密碼?</a>
+                            <a href="#" id="register">註冊</a>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="./Icons/black logo.svg" alt="Logo">
+            <h1>夏威夷旅遊租借服務</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="20241009-Hawaii-index.html">Home</a></li>
+                <li><a href="20241009-Hawaii-about.html">About</a></li>
+                <li><a href="20241009-Hawaii-member.html">Login</a></li>
+                <li><a href="20241009-Hawaii-contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="links">
+            <a href="#"><img src="./Icons/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="./Icons/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./Icons/twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="./Icons/youtube.svg" alt="youtube"></a>
+        </section>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
